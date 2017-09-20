@@ -12,8 +12,9 @@ class CrossingFavor
     EquipmentManager.new.empty_hands
 
     settings = get_settings
-
-    walk_to 1420
+    hometown = settings.hometown
+    favor_orb = get_data('town')[hometown]['favor_orb']['id'] || 1420
+    walk_to(favor_orb)
 
     case bput('pray', 'You feel a sense of peace settle over you', 'The gods ignore the pleas of your decaying spirit')
     when 'The gods ignore the pleas of your decaying spirit'

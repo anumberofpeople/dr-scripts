@@ -79,6 +79,10 @@ Crossing:
   stamina:
     outer_room: 766
     inner_room: structure
+  favor_orb:
+    id: 1420
+  favor_altar:
+    id: 5865
 Leth Deriel:
   currency: kronars
   leather_repair:
@@ -221,6 +225,10 @@ Riverhaven:
     - 413
   # repairs: 8737
   # athletics (jant river): 7651, 7650, 7649, 7648, 7647, 7633
+  favor_orb:
+    id: 513
+  favor_altar:
+    id: 445
 Rossman's Landing:
   # safe room: 7695
   tannery:
